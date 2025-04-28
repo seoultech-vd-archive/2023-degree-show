@@ -1,0 +1,343 @@
+@media only screen and (min-width: 768px) {
+
+.slider {
+  margin: 0;
+  /*max-width: 650px;
+  max-height: 650px;*/
+}
+
+.slide_viewer {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background-image: url("./archive_img/archive_id1.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(2) {
+  background-image: url("./archive_img/archive_id2.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(3) {
+  background-image: url("./archive_img/archive_id3.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(4) {
+  background-image: url("./archive_img/archive_id4.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(5) {
+  background-image: url("./archive_img/archive_id5.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(6) {
+  background-image: url("./archive_img/archive_id6.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(7) {
+  background-image: url("./archive_img/archive_id7.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(8) {
+  background-image: url("./archive_img/archive_id8.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(9) {
+  background-image: url("./archive_img/archive_id9.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(10) {
+  background-image: url("./archive_img/archive_id10.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide_buttons {
+  /*left: 0;
+  position: absolute;
+  right: 0;*/
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #ffc2be;
+  font-size: 30px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #f72b21;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 650px;
+  margin: 0 auto;
+  max-width: 650px;
+  position: relative;
+  top: -650px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  /*position: absolute;*/
+  top: 0;
+  align-items: center;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  /*position: absolute;*/
+  right: 100px;
+  top: 0;
+
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  align-items: center;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  width: 30px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+.slider {
+  margin: 0;
+  /*max-width: 650px;
+  max-height: 650px;*/
+}
+
+.slide_viewer {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+    height: 100%;
+    position: relative;
+    /* width: 100px; */
+    padding-bottom: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background-image: url("./archive_img/archive_id1.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(2) {
+  background-image: url("./archive_img/archive_id2.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(3) {
+  background-image: url("./archive_img/archive_id3.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(4) {
+  background-image: url("./archive_img/archive_id4.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(5) {
+  background-image: url("./archive_img/archive_id5.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(6) {
+  background-image: url("./archive_img/archive_id6.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(7) {
+  background-image: url("./archive_img/archive_id7.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(8) {
+  background-image: url("./archive_img/archive_id8.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(9) {
+  background-image: url("./archive_img/archive_id9.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide:nth-of-type(10) {
+  background-image: url("./archive_img/archive_id10.webp");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.slide_buttons {
+  /*left: 0;
+  position: absolute;
+  right: 0;*/
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #ffc2be;
+  font-size: 30px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #f72b21;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 650px;
+  margin: 0 auto;
+  max-width: 650px;
+  position: relative;
+  top: -650px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  /*position: absolute;*/
+  top: 0;
+  align-items: center;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  /*position: absolute;*/
+  right: 100px;
+  top: 0;
+
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 70px;
+  align-items: center;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  width: 23px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+}

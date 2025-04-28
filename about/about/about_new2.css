@@ -1,0 +1,121 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255,11,0);
+        background: linear-gradient(180deg, rgba(255,11,0,1) 5%, rgba(220,220,220,1) 40%, rgba(161,161,162,1) 100%);
+  background-size: cover;
+  background-position: center center;
+  transform: translateZ(0);
+  will-change: transform;
+  z-index: -10;
+}
+
+body{color: white;}
+
+@media only screen and (min-width: 768px) {
+*{background-repeat: no-repeat!important;
+    background-position: center;}
+
+#Project{background: rgb(255,11,0);
+        background: linear-gradient(180deg, rgba(255,11,0,1) 5%, rgba(220,220,220,1) 40%, rgba(161,161,162,1) 100%);
+              background-attachment: fixed;}
+#nav {height: auto;}
+            
+/*Text*/
+    /*middle title kr*/h1{color:#FFFFFF; font-family: 'Pretendard'; font-weight: 700; font-size:calc(0.5vw + 13px); margin-bottom: 0.3vh;}
+    /*middle title en*/h2{color:#FFFFFF; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: calc(0.5vw + 10px); line-height: 1.3rem;}
+    /*big title kr*/   h3{color:#FFFFFF; font-family: 'Pretendard'; font-weight: 700; font-size: calc(0.5vw + 20px); line-height: calc(0.5vw + 2rem);}
+    /*big title en*/   h4{color:#FFFFFF; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: calc(0.5vw + 20px); line-height: calc(0.5vw + 2rem);}
+
+    /*본문*/            p{color:#FFFFFF; font-family: 'Pretendard'; font-size: 14px; margin-bottom: 1vh; line-height: 1.3rem; word-break: keep-all;}
+    /*footer*/         h5{color:#f72b21; font-family: 'DM Sans', sans-serif; font-weight: 400; font-size:calc(10px + 0.4em); text-align: center;}
+    a:hover{color:#FFFFFF;
+            font-family: 'DM Sans', sans-serif; font-weight: 400;
+            filter: drop-shadow(0px 0px 5px #e7e6e6);
+            opacity: 100%;}
+
+    .link {color:#FFFFFF; font-family: 'Pretendard'; font-weight: 400; font-size: calc(0.6vw + 5px); margin-bottom: 1vh; line-height: calc(0.5vw + 1rem);}
+    .link:hover{color:#f72b21; font-family: 'Pretendard'; font-weight: 400;}
+
+
+/*Image*/
+    .poster{width: 100%; height: 100%;}
+    .support{width: 6vw; margin-right: 2vw;}           
+
+   
+/*TOP Button*/
+    #MOVE_TOP_BTN:hover{color:#f72b21;
+                    filter: drop-shadow(0px 0px 5px #f72b21);
+                    opacity: 100%;}
+    a#MOVE_TOP_BTN {position: fixed;
+                    right: 4vw;
+                    bottom: 6vh;
+                    display: none;
+                    z-index: 999;
+                    font-family: 'DM Sans', sans-serif; font-weight: 400;}
+
+}
+
+           
+
+           
+     
+
+
+ @media only screen and (max-width: 767px) {
+    html{overflow-x: hidden;}
+
+    #Project{background: rgb(255,11,0);
+        background: linear-gradient(180deg, rgba(255,11,0,1) 5%, rgba(220,220,220,1) 40%, rgba(161,161,162,1) 100%);
+              background-attachment: fixed;}
+     
+
+    /*middle title kr*/h1{color:#FFFFFF; font-family: 'Pretendard'; font-weight: 700; font-size:16px; margin-bottom: 0.3vh; margin-top: 0.3vh;}
+    /*middle title en*/h2{color:#FFFFFF; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 16; line-height: 1.3rem;}
+    /*big title kr*/   h3{color:#FFFFFF; font-family: 'Pretendard'; font-weight: 700; font-size: 21px; line-height: 1.6rem; margin-top: 20px; word-break: keep-all;}
+    /*big title en*/   h4{color:#FFFFFF; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 18px; line-height: 1.2rem;}
+
+    /*본문*/            p{color:#FFFFFF; font-family: 'Pretendard'; font-size: 12px; margin-bottom: 1vh; line-height: 1.2rem; word-break: keep-all;}
+    /*footer*/         h5{color:#f72b21; font-family: 'DM Sans', sans-serif; font-weight: 400; text-align: center;}
+    a:hover{color:#FFFFFF;
+            font-family: 'DM Sans', sans-serif; font-weight: 400;
+            filter: drop-shadow(0px 0px 5px #FFFFFF);
+            opacity: 100%;}
+
+            h1, h2, h3, h4, p, a{color:#FFFFFF;}
+      input{display: none;}
+
+    .link {color:#FFFFFF; font-family: 'Pretendard'; font-weight: 400; font-size: 12px; margin-bottom: 1vh; line-height: 1rem;}
+    .link:hover{color:#f72b21;  font-family: 'Pretendard'; font-weight: 400;}
+
+    /*Image*/
+    .poster{width: 100%; height: 100%;}
+    .support{width: 17vw; margin-right: 2vw;}
+
+    /*TOP Button*/
+    #MOVE_TOP_BTN:hover{color:#000000;
+                    
+                    opacity: 100%;}
+    a#MOVE_TOP_BTN {position: fixed;
+                    right: 8vw;
+                    bottom: 3vh;
+                    display: none;
+                    z-index: 999;
+                    color: #000000;
+                    font-size: 14px;
+                    font-family: 'DM Sans', sans-serif; font-weight: 400;}
+
+    .m_margin {padding-top: 5px;}
+
+    #Project{z-index: 2;}
+
+    .m_grid2{display: grid;
+            max-width: 800vw;
+            grid-template-columns: 1fr;
+            padding: 4vw 0vw;
+            margin: 0vw 6vw;
+            margin-top: 10px;}
+}

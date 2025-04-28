@@ -1,0 +1,78 @@
+/*웹*/ 
+@media only screen and (min-width: 768px) { 
+  
+  footer {position: relative;
+          text-align: center;
+          padding-top:3vh;
+          padding-bottom:2vh;
+          background-color: #FFFFFF;}
+
+  .footer{font-size: calc(0.5vw + 5px); 
+          color: #a0a1a2;
+          line-height: 100%;
+          margin-bottom: 0.7vh;}
+
+  .flex{display: flex; align-items:flex-start;}
+
+  /*Link div*/ 
+  footer > div:last-child {margin-bottom: 0;
+                            width: 7vw;
+                            margin: auto;
+                            justify-content: space-between;}
+
+  .seoultechIcon {min-width: 20px; width: 3.5vw; margin: auto;}
+  .instaIcon {min-width: 20px; width: 3.5vw; margin: auto;}
+
+}
+
+
+/*모바일*/ 
+@media only screen and (max-width: 767px) {
+
+  footer {position: relative;
+          text-align: center;
+          padding-top:2vh;
+          padding-bottom:1vh;
+          background-color: #FFFFFF;
+          padding-left: 3vw;
+          padding-right: 3vw;
+          z-index: 1;}
+
+  .footer{font-size: 10px;
+          zoom: 0.7;
+          color: #a0a1a2;
+          line-height: 0.8rem;
+          margin-bottom: 0vh;}
+
+  .seoultechIcon {min-width: 40px; width: 7.5vw; margin: auto;}
+  .instaIcon {min-width: 40px; width: 7.5vw; margin: auto;}
+
+  /*Link div*/ 
+  footer > div:last-child {margin-bottom: 0;
+                            width: 25vw;
+                            margin: auto;
+                            justify-content: space-between;}
+
+
+
+      .flex{display: flex; flex-wrap: wrap; align-items:flex-start;}
+      .footerKr {font-size:16px;
+        color: #13519c; 
+        line-height: 1.3; 
+        margin-bottom:5px;
+        word-break: keep-all;}
+      .footerEn {font-size:12px; 
+        color: #13519c; 
+        line-height: 1.2; 
+        word-break: keep-all;}
+     
+      footer br{display:block;}
+
+      
+    .footerIcon{min-width: 28px; width:10vw; margin: auto; padding-bottom: 1vh;}
+ 
+    .footer_Left{width:80%; position: absolute; left:0; bottom: 0;z-index: -1;}
+    .footer_Right{width:80%; position: absolute; right:0; bottom: 0;z-index: -1;}
+
+    .link{margin-bottom: 1vh;}
+}
