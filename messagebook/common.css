@@ -1,0 +1,112 @@
+/*웹*/
+
+@media only screen and (min-width: 767px) {
+    @font-face{font-family: 'HV'; src: url('HV Clio Regular.otf');}
+    * {box-sizing: border-box; margin: 0; padding: 0; }
+    html{
+        font-family: sandoll-gothicneo2,sans-serif; font-weight: 400; font-style: normal; font-size: 18px;  background-color: #f8fafd; color:#13519c;}
+ 
+    ::selection {
+		background-color:#f8fafd;
+		color: #e51d1a;
+		}
+    a {text-decoration: none; color: #13519c; 
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
+      cursor: pointer;}
+
+    img {display: block;user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;}
+
+    button {border: none; 
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;}
+    label {-webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;}
+    
+    /* 전체에 적용되는 flex 목록 */
+    .flex_1{flex: 1;}
+    .flex_2{flex: 2;}
+    .flex_3{flex: 3;}
+    .flex_4{flex: 4;}
+    .flex_5{flex: 5;}
+    .flex_6{flex: 6;}
+    .flex_7{flex: 7;}
+    .flex_8{flex: 8;}
+    .flex_9{flex: 9;}
+    .flex_10{flex: 10;}
+    .flex_11{flex: 11;}
+    .flex_12{flex: 12;}
+
+        /*스크롤바 css*/
+        ::-webkit-scrollbar {
+          display: none;
+        }
+
+
+}
+/*모바일*/
+@media only screen and (max-width: 767px) {
+        @font-face{font-family: 'HV'; src: url('HV Clio Regular.otf');}
+    * {box-sizing: border-box; margin: 0; padding: 0; }
+    html{
+        font-family: sandoll-gothicneo2,sans-serif; font-weight: 400; font-style: normal; font-size: 18px;  background-color: #f8fafd;}
+    body {overflow-x: hidden;}
+
+    a {text-decoration: none; color: #13519c; 
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
+      cursor: pointer;}
+
+    img {display: block;user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;}
+
+    button {border: none; 
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;}
+    label {-webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;}
+    
+ /*스크롤바 css*/
+        ::-webkit-scrollbar {
+          width: 1.2vw;
+          
+          z-index: 3;
+        }
+        ::-webkit-scrollbar-track {
+          
+          border-radius: 10px;
+          display: none;
+        }
+        /*스크롤바 핸들 css*/
+        ::-webkit-scrollbar-thumb {
+          background: #76c3de; 
+          
+          border-radius: 10px;
+        }
+        /*스크롤바 핸들 hover css*/
+        ::-webkit-scrollbar-thumb:hover {
+          background: #2a99d7; 
+        }   
+
+}

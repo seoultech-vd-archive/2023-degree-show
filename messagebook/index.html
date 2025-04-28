@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://stvd2022.com/ux/18100858/detail.html -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+  <title>(MESSAGEBOOK)</title>
+
+  <meta name="description" content="서울과학기술대학교 조형대학 디자인학과 시각디자인전공 제41회 졸업전시회 (MEDIA) IS THE MESSAGE">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <meta name=" theme-color" content="#f72b21">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stvcd2023.com">
+  <meta property="og:title" content="(MEDIA) IS THE MESSAGE">
+  <meta property="og:image" content="../../common/siteogimg.jpg">
+  <meta property="og:description" content="서울과학기술대학교 시각디자인전공 제41회 졸업전시회">
+  <meta property="og:site_name" content="(서울과학기술대학교 조형대학 디자인학과 시각디자인전공 제41회 졸업전시회 (MEDIA) IS THE MESSAGE">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!--favicon-->
+  <!--?php
+if (!defined('G5_IS_ADMIN')) echo $config['cf_add_script'];
+?-->
+
+  <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="../../favicon.ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../favicon.ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../favicon.ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../favicon.ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../favicon.ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../favicon.ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../../favicon.ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../favicon.ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../favicon.ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../favicon.ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon.ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon.ico/favicon-16x16.png">
+  <link rel="manifest" href="../../favicon.ico/manifest.json"/>
+  <meta name="msapplication-TileColor" content="#f72b21"/>
+  <meta name="msapplication-TileImage" content="../../favicon.ico/ms-icon-144x144.png"/>
+  <meta name="theme-color" content="#f72b21"/>
+  <!--body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>-->
+
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+
+  <base href="." target="_self">
+
+  <link rel="stylesheet" type="text/css" href="../common/common.css">
+  <link rel="stylesheet" type="text/css" href="../common/nav_new.css">
+  <link rel="stylesheet" type="text/css" href="./messagebook4.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+  <style type="text/css">
+    body, html {
+      cursor: url("../common/cursor.png") 10 15, auto;
+    }
+
+    a, button {
+      cursor: url("../common/cursor2.png") 10 15, auto !important;
+    }
+
+    html {
+      background: rgb(255, 11, 0);
+      background: linear-gradient(180deg, rgba(255, 11, 0, 1) 5%, rgba(220, 220, 220, 1) 40%, rgba(161, 161, 162, 1) 100%);
+      background-attachment: fixed;
+      font-family: 'Pretendard';
+      font-weight: 400;
+    }
+
+    text {
+      color: #f72b21;
+    }
+
+    body, section, input {
+      margin: 0;
+      padding: 0;
+    }
+
+    .poster {
+      color: #f72b21;
+      font-family: 'Pretendard';
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .post {
+      color: #f72b21;
+      font-family: 'Pretendard';
+      font-weight: 400;
+      font-size: 17px;
+      text-align: center;
+    }
+
+    button {
+      color: #555555;
+      font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .addPostWrap {
+      width: 250px;
+      position: fixed;
+      left: 30px;
+      bottom: 30px;
+    }
+
+    .post {
+      background-repeat: no-repeat;
+      backgroupd-size: 13px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    #postit {
+      width: 250px;
+      background: blue;
+      color: white;
+      border: none;
+      height: 20px;
+    }
+
+    #postit:hover {
+      background: red;
+    }
+
+    .header {
+      line-height: 2em;
+    }
+
+    input {
+      resize: none;
+      width: 100%;
+      height: 40px;
+      background: rgb(255, 255, 255);
+      background: linear-gradient(0deg, rgba(220, 220, 220, 0.7) 0%, rgba(232, 232, 232, 0.8) 40%, rgba(140, 140, 140, 1) 100%);
+      backdrop-filter: blur(5px);
+      background-repeat: no-repeat;
+      position: fixed;
+      bottom: 110px;
+      opacity: 90%;
+      border: none;
+      outline: none;
+    }
+
+    textarea {
+      resize: none;
+      width: 100%;
+      height: 60px;
+      background: rgb(255, 255, 255);
+      background: linear-gradient(0deg, rgba(232, 232, 232, 0.7) 0%, rgba(220, 220, 220, 0.7) 100%);
+      backdrop-filter: blur(5px);
+      background-repeat: no-repeat;
+      position: fixed;
+      bottom: 50px;
+      opacity: 90%;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      resize: none;
+      width: 100%;
+      height: 50px;
+      background: rgb(255, 255, 255);
+      background: linear-gradient(0deg, rgba(255, 11, 0, 0.7) 0%, rgba(220, 220, 220, 0.7) 40%, rgba(232, 232, 232, 0.7) 100%);
+      backdrop-filter: blur(5px);
+      background-repeat: no-repeat;
+      padding-bottom: 20px;
+      position: fixed;
+      bottom: 0px;
+      opacity: 90%;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+
+    button:hover{color: #f72b21;}
+
+    ::placeholder {
+      color: #777777;
+    }
+
+    .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(255, 11, 0);
+      background: linear-gradient(180deg, rgba(255, 11, 0, 1) 5%, rgba(220, 220, 220, 1) 40%, rgba(161, 161, 162, 1) 100%);
+      background-size: cover;
+      background-position: center center;
+      transform: translateZ(0);
+      will-change: transform;
+      z-index: -10;
+    }
+
+    #wrapper {
+      height: auto;
+      min-height: 100%;
+      padding-bottom: 10;
+    }
+
+    .workspace {
+      height: 100%;
+      width: 100%;
+      place-items: center;
+      text-align: center;
+      margin-bottom: 130px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    a {
+      color: #FFFFFF;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+    }
+
+    a:hover {
+      color: #FFFFFF;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      filter: drop-shadow(0px 0px 5px #e7e6e6);
+      opacity: 100%;
+    }
+
+    @media only screen and (max-width: 767px) and (min-width: 640px) {
+      .poster {
+        color: #f72b21;
+        font-family: 'Pretendard';
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .post {
+        color: #f72b21;
+        font-family: 'Pretendard';
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      button {
+        color: #555555;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+      }
+
+      a:hover {
+        color: #FFFFFF;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        filter: drop-shadow(0px 0px 5px #FFFFFF);
+        opacity: 100%;
+      }
+
+      .header {
+        line-height: 1.7em;
+        font-size: 13px;
+      }
+
+      .workspace {
+        height: 100%;
+        width: 100%;
+        place-items: center;
+        text-align: center;
+        margin-bottom: 130px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      #messageDisplay {
+        color: #f72b21;
+        /* margin-right: 10px; */
+      }
+    }
+
+
+    @media only screen and (max-width: 639px) {
+      .poster {
+        color: #f72b21;
+        font-family: 'Pretendard';
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .post {
+        color: #f72b21;
+        font-family: 'Pretendard';
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      button {
+        color: #555555;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+      }
+
+      a {
+        color: #FFFFFF;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+      }
+
+      a:hover {
+        color: #FFFFFF;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        filter: drop-shadow(0px 0px 5px #FFFFFF);
+        opacity: 100%;
+      }
+
+      .header {
+        line-height: 1.7em;
+        font-size: 13px;
+      }
+
+      .workspace {
+        height: 100%;
+        width: 100%;
+        place-items: center;
+        text-align: center;
+        margin-bottom: 130px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      #messageDisplay {color: #f72b21;}
+    }
+
+    .message-list {display: grid;
+                  grid-template-columns: repeat(4, 1fr);
+                  margin: 0vw 2vw;
+                  grid-gap: 1.5vw;
+                  overflow-y: auto; /* 세로 스크롤 허용 */}
+
+.message-item {position: relative;
+                width: 100%;
+                height: auto;
+                z-index: 0;
+                color: #666665;
+                background-image: url("./messagebox.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity: 80%;
+                padding: 1.5vw 2vw 1vw 2vw;
+                line-height: 1.5em;
+                font-weight: 400;
+                font-size:calc(0.5vw + 8px);}
+
+.message-info {display: flex;
+              justify-content: space-between;
+              color: #f72b21;
+              font-size:calc(0.5vw + 6px);
+              line-height: 1.3em;
+              font-weight: 400;
+              bottom: 0;
+              padding-top: 10px;}
+
+/* 모바일 화면을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+  .message-list {grid-template-columns: 1fr; /* 모바일 화면에서는 한 열만 표시 */
+                  grid-gap: 3vw;
+                  margin: 0vw 0vw;}
+
+  .message-item {position: relative;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+                color: #666665;
+                background-image: url("./m_messagebox.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity: 80%;
+                padding: 5.5vw 5vw 4vw 5vw;
+                line-height: 1.5em;
+                font-weight: 400;
+                font-size: 14px;}
+
+.message-info {display: flex;
+              justify-content: space-between;
+              color: #f72b21;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 1.3em;
+              bottom: 0;
+              padding-top: 15px;}
+}
+
+
+  </style>
+</head>
+
+
+<body id="body">
+
+<!--Nav Bar-->
+<nav id="nav">
+  <div class="grid_nav">
+    <a href="https://stvcd2023.com" style="justify-content: flex-start;">
+      <img class="logo" src="../../common/logo.svg"/>
+    </a>
+    <div class="nav_text">
+      <a href="https://stvcd2023.com/about" class="nav_left">(ABOUT)</a>
+      <a href="https://stvcd2023.com/designers" class="nav_left">(DESIGNERS)</a>
+      <a href="https://stvcd2023.com/projects/UX_DESIGN" class="nav_left">(PROJECTS)</a>
+      <a href="https://stvcd2023.com/archive" class="nav_left">(ARCHIVE)</a>
+      <a href="https://stvcd2023.com/messagebook" class="nav_select">(MESSAGEBOOK)</a>
+    </div>
+  </div>
+</nav>
+
+<nav id="m_nav">
+  <header id="navHead">
+    <a href="https://stvcd2023.com" style="justify-content: flex-start;">
+      <img class="logo" src="../../common/logo.svg"/>
+    </a>
+    <a class="menu-trigger" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+  </header>
+  <div class="m_menu">
+    <ul>
+      <li class="active"><a href="https://stvcd2023.com/about">(ABOUT)</a></li>
+      <li><a href="https://stvcd2023.com/designers">(DESIGNERS)</a></li>
+      <li><a href="https://stvcd2023.com/projects/UX_DESIGN">(PROJECTS)</a></li>
+      <li><a href="https://stvcd2023.com/archive">(ARCHIVE)</a></li>
+      <li><a href="https://stvcd2023.com/messagebook">(MESSAGEBOOK)</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="wrapper">
+  <div class="bg"></div>
+  <div style="padding:50px;"></div>
+
+  <!--Background Img-->
+  <img src="../../common/text.svg" style="position: fixed; bottom: 180px; opacity: 50%; z-index: -10;">
+
+
+  <!--Message-->
+  <div>
+
+    <!--button id="messageGet">남겨진 메시지들</button-->
+    <div id="messageDisplay" class="workspace header" style="z-index: 20;">
+     <div class="message-list"></div>
+    </div>
+
+    <section style="z-index: 30;">
+      <input type="text" placeholder="작성자 (7글자 이내)" id="writer" class="poster"><br>
+      <textarea placeholder="당신의 메시지로 제41회 졸업전시의 미디어를 장식해주세요" id="writing" class="post"></textarea><br>
+      <!--input type="button" value="메시지 남기기" onclick="duplicate();"-->
+      <button id="okay">(LEAVE YOUR MESSAGE)</button>
+    </section>
+
+  </div>
+
+  <script type="text/javascript">
+      okay.onclick = function () {
+          console.log("ok");
+          let t = document.getElementById("writer");
+          let time = new Date();
+          let guestDate = time.getDate();
+          let guestMonth = time.getMonth() + 1;
+          let guestYear = 1900 + time.getYear();
+          let inputDate = guestYear + "-" + guestMonth + "-" + guestDate;
+          let s = document.getElementById("writing");
+          if (!t.value) {
+              alert('작성자를 입력해주세요!');
+              return;
+          }
+          if (!s.value) {
+              alert('메시지를 입력해주세요!');
+              return;
+          }
+
+          console.log(inputDate + "에 남겨진 '" + t.value + "'님의 메시지 →" + " (" + s.value + ")");
+          //let sendData = "message=" + "[@]" + inputDate + "일에 남겨진 '" + t.value + "'님의 메시지 →" + " (" + s.value + ")";
+          //ajaxBH("POST", "write.php", sendData, result);
+          $.ajax({
+              url: 'write_json.php',
+              type: 'POST',
+              data: {
+                  writer: $('#writer').val(),
+                  message: $('#writing').val()
+              },
+              success: function(response) {
+                  result(response);
+                  window.location.reload();
+              },
+              error: function(xhr, status, error) {
+                  console.error("에러 발생:", status, error);
+              }
+          });
+
+          document.body.appendChild(a); //body 붙이기
+
+      }
+
+      document.body.onload = function () {
+          messageLoad();
+      }
+
+      function formatDate(dateStr) {
+          var date = new Date(dateStr);
+          var year = date.getFullYear();
+          var month = ('0' + (date.getMonth() + 1)).slice(-2);
+          var day = ('0' + date.getDate()).slice(-2);
+          return year + '-' + month + '-' + day;
+      }
+      function messageLoad() {
+          // ajaxBH("POST", "messagebook.json", null, processList);
+          $.ajax({
+              url: 'messagebook.json', // JSON 파일 URL
+              type: 'GET',
+              dataType: 'json',
+              cache: false,
+              success: function(data) {
+                  $.each(data, function(index, item) {
+                      var formattedDate = formatDate(item.date);
+                      var formattedMessage = item.message.replace(/\n/g, '<br/>'); // 엔터를 <br/>로 변경
+
+                      $('.message-list').append(
+                          '<div class="message-item">' +
+                          '<div>' + formattedMessage + '</div>' +
+                          '<div class="message-info">' +
+                          '<div>' + formattedDate + '</div>' +
+                          '<div>' + item.writer + '</div>' +
+                          '</div>' +
+                          '</div>'
+                      );
+                  });
+              },
+              error: function(xhr, status, error) {
+                  console.error("에러 발생:", status, error);
+              }
+          });
+      }
+
+      function processList(data) {
+          let g = data.split("[@]");
+          for (var i = 0; i < g.length; i++) {
+              messageDisplay.innerHTML += g[i] + "<br>";
+          }
+
+      }
+
+      function result(getdata) {
+          console.log(getdata);
+      }
+
+      function ajaxBH(method, url, data, callBack) {
+          var xmlhttp;
+
+          if (window.XMLHttpRequest) {
+              xmlhttp = new XMLHttpRequest();
+          } else {
+              xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+          }
+
+          if (method == "POST") {
+              xmlhttp.open("POST", url, true);
+          } else if (method == "GET") {
+              xmlhttp.open("GET", url, true);
+          }
+
+          xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+          xmlhttp.send(data);
+
+          xmlhttp.onreadystatechange = function () {
+              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                  callBack(xmlhttp.responseText);
+              }
+          }
+      }
+  </script>
+
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!--Nav-->
+<script>
+    var burger = $('.menu-trigger');
+
+    burger.each(function (index) {
+        var $this = $(this);
+
+        $this.on('click', function (e) {
+            e.preventDefault();
+            $(this).toggleClass('active-' + (index + 1));
+        })
+    });
+
+    var h = 0;
+
+    $(burger).on("click", function () {
+        if (h == 0) {
+            $('.ham-con').animate({
+                right: '0',
+                opacity: 1
+            }, 500);
+            $(this).addClass('active-1');
+            h++;
+        } else if (h == 1) {
+            $('.ham-con').animate({
+                right: '-20%',
+                opacity: 0
+            }, 500);
+            $(this).removeClass('active-1');
+            h--;
+        }
+        $(window).scroll(function () {
+            sct = $(window).scrollTop();
+            if (sct > 30) {
+                $('.ham-con').css({
+                    opacity: 0,
+                    right: '-20%'
+                }, 500);
+                $(burger).removeClass('active-1');
+                h = 0;
+            }
+        });
+    })
+</script>
+
+
+<script>
+    $(".menu-trigger").click(function () {
+        $("#m_nav").toggleClass("active");
+    })
+</script>
+
+</body>
+</html>
