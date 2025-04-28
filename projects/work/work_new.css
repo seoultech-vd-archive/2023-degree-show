@@ -1,0 +1,154 @@
+@media only screen and (min-width: 768px) {
+            
+  html{overflow-x: hidden; scroll-behavior: smooth;}
+  section{padding:0 0vw;}
+
+*{background-repeat: no-repeat!important;
+    background-position: center;}
+            
+#nav {height: auto;}
+nav a :hover{color:#FFFFFF;}
+
+    h1{color:#000000; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size:calc(0.5vw + 9px); margin-bottom: 0.5vh}
+    h2{color:#000000; font-family: 'Pretendard'; font-weight: 700; font-size: calc(0.5vw + 21px); line-height: 1.8rem; margin-bottom: 6.5vh}
+    h3{color:#000000; font-family: 'Pretendard'; font-weight: 400; font-size: calc(0.5vw + 14px); text-decoration:underline; text-underline-position: under; margin-bottom: 1.9vh;}
+    h4{color:#000000; font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: calc(0.5vw + 7px); line-height: 1.3rem;}
+    p{color:#000000; font-family: 'Pretendard'; font-weight: 400; }
+    a:hover{color:#FFFFFF;
+            font-family: 'DM Sans', sans-serif; font-weight: 400;
+            filter: drop-shadow(0px 0px 5px #e7e6e6);
+            opacity: 100%;}
+    input{display: none;}
+
+    h3:hover{color:#f72b21;}
+    h4 button:hover{color:#f72b21;}
+    h4 a:hover{color:#f72b21;}
+
+    button{font-family: 'DM Sans', sans-serif;; font-weight: 400; font-size: 14px; background-color: white; color: black;}
+    button:hover{color:#f72b21; font-family: 'DM Sans', sans-serif;; font-weight: 400; font-size: 14px;}
+
+/*copy message*/
+  #textstore {width:0px; height:0px; resize:none; border:none; position:fixed; left:0; top:60%;
+                        -webkit-touch-callout: none; /* iOS Safari */
+                        -webkit-user-select: none;   /* Chrome/Safari/Opera */
+                        -khtml-user-select: none;    /* Konqueror */
+                        -moz-user-select: none;      /* Firefox */
+                        -ms-user-select: none;       /* Internet Explorer/Edge */
+                        user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */}
+
+  .print {background:#f72b21;
+          color:#FFFFFF; padding:10px 15px; font-size: 14px;
+          display:none; position:fixed; z-index:999; top:85%; left:50%; transform:translate(-50%, -50%);}
+
+/*thumnail*/
+  #fullImg2{display: none;}
+  .main{min-height: 10vh; display: flex;}
+ 
+  .text {font-size:calc(9px + 0.4rem); line-height: 1.6rem; word-break: keep-all;}
+  .text a{margin-left: 0vw; font-size: 14px; line-height: 1.7em; word-break: keep-all;}
+  p{margin-bottom:2vh;}
+
+  .details {background-color:#e6e6e6;}
+  .details img{width:100%;}
+    .videoWrap {position: relative;
+                padding-bottom: 56.25%;
+                /* 16:9 */
+                padding-top: 25px;
+                height: 0;}
+    .videoWrap iframe {position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;}
+
+/*TOP Button*/
+    #MOVE_TOP_BTN:hover{color:#f72b21;
+                    filter: drop-shadow(0px 0px 5px #f72b21);
+                    opacity: 100%;}
+    a#MOVE_TOP_BTN {position: fixed;
+                    right: 4vw;
+                    bottom: 6vh;
+                    display: none;
+                    z-index: 999;
+                    font-family: 'DM Sans', sans-serif; font-weight: 400;}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+      html{overflow-x: hidden;}
+     
+
+    h1{color:#000000; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size:14px; margin-bottom: 0.3vh; margin-top: 0.3vh;}
+    h2{color:#000000; font-family: 'Pretendard', sans-serif; font-weight: 700; font-size: 23px; line-height: 1.3rem;}
+    h3{color:#000000; font-family: 'Pretendard', sans-serif; font-weight: 700; font-size: 17px; line-height: 1.6rem; margin-top: 20px; word-break: keep-all; text-decoration:underline; text-underline-position: under;}
+    h4{color:#000000; font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 11px; line-height: 1.1rem; margin-bottom: 2vh; margin-top: 0.4vh;}
+
+    p{color:#000000; font-family: 'Pretendard'; font-weight: 400; font-size: 13px; margin-bottom: 1vh; line-height: 1.2rem; word-break: keep-all;}
+    h5{color:#f72b21; font-family: 'DM Sans', sans-serif; font-weight: 400; text-align: center;}
+    a{color:#000000;
+            font-family: 'DM Sans', sans-serif; font-weight: 400;
+            font-size: 11px;}
+    a:hover{color:#f72b21;
+            opacity: 100%;}
+
+    button{color:#000000;
+            font-family: 'DM Sans', sans-serif; font-weight: 400;
+            font-size: 11px;
+            background-color: white;}
+
+    .grid {
+    display: block;
+    max-width: 800vw;
+    padding: 4vw 0vw;
+    margin: 0vw 5vw;}
+
+    .main{min-height: 6vh; padding-top:6vh;}
+
+    #textstore {width:0px; height:0px; resize:none; border:none; position:fixed; left:0; top:60%;
+                        -webkit-touch-callout: none; /* iOS Safari */
+                        -webkit-user-select: none;   /* Chrome/Safari/Opera */
+                        -khtml-user-select: none;    /* Konqueror */
+                        -moz-user-select: none;      /* Firefox */
+                        -ms-user-select: none;       /* Internet Explorer/Edge */
+                        user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */}
+
+  .print {background:#f72b21;
+          color:#FFFFFF; padding:10px 10px; font-size: 10px;
+          display:none; position:fixed; z-index:999; top:85%; left:50%; transform:translate(-50%, -50%);}
+
+    #fullImg {display: none;}
+    #fullImg2{display: block;}
+      
+          
+              .text{order:1;}
+                        .Kr{font-size:15px; line-height: 24px; word-break: break-all;}
+                        .Kr p{margin-bottom:2vh;}
+                
+                        .details img{width:100%;}
+              .videoWrap {position: relative;
+                          padding-bottom: 56.25%;
+                          /* 16:9 */
+                          padding-top: 25px;
+                          height: 0;
+                          z-index:1;}
+              .videoWrap iframe {position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;}
+
+    /*TOP Button*/
+    #MOVE_TOP_BTN:hover{color:#000000;
+                    
+                    opacity: 100%;}
+    a#MOVE_TOP_BTN {position: fixed;
+                    right: 8vw;
+                    bottom: 3vh;
+                    display: none;
+                    z-index: 999;
+                    color: #000000;
+                    font-size: 14px;
+                    font-family: 'DM Sans', sans-serif; font-weight: 400;}
+                        
+    }
